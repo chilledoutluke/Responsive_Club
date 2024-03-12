@@ -32,6 +32,10 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+    .nav {
+        justify-content: center;
+    }
+
     .nav img {
         justify-content: center;
         align-items: center;
