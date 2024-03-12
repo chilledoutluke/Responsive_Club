@@ -78,10 +78,26 @@ body {
 }
 
 
+/* Meetup Section */
+
+.meetup {
+    padding: 1em;
+}
+
+.meetup h4 {
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+.meetup p {
+    font-weight: 500;
+}
 
 
 
-
+.container {
+    padding: 1em;
+}
 
 
 
