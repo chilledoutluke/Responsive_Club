@@ -11,11 +11,31 @@ html {
 }
 
 body {
-    padding: 1em;
     font-family: 'Courier New', Courier, monospace;
 }
+
+
 
 .nav {
     background-color: var(--black);
     color: var(--grey-light);
+    display: flex;
+    padding: 0.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img {
+    width: auto;
+    height: 5em;
+}
+
+.nav-list {
+    display: flex;
+    padding-right: 1em;
+}
+
+.nav-list li {
+    padding: 1em;
+    list-style-type: none;
 }
