@@ -15,3 +15,7 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.nav {
+    background-color: var(--black);
+    color: var(--grey-light);
+}
