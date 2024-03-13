@@ -31,7 +31,7 @@ body {
     height: 5em;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
     .nav {
         justify-content: center;
     }
@@ -70,12 +70,18 @@ body {
 
 .banner h1 {
     position: absolute;
-    top: 2em;
+    top: 3em;
     left: 1em;
     color: var(--white);
     letter-spacing: 0.2em;
     flex-wrap: wrap;
     font-size: 2.5em;
+}
+
+@media only screen and (max-width: 700px) {
+  .banner h1 {
+    display: none;
+  }
 }
 
 
@@ -95,13 +101,14 @@ body {
 }
 
 
-
+/* Meetup Images */
 .container {
     padding: 1em;
 }
 
-
-
+.cards {
+  padding: 1em;
+}
 
 
 
