@@ -151,5 +151,11 @@ footer {
 .footer-list {
   color: var(--white);
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
+.footer-list li {
+  padding: 1em;
+  list-style-type: none;
+}
