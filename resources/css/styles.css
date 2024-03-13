@@ -111,12 +111,22 @@ body {
 }
 
 
+/* Quote Section */
+.quote {
+  background-color: var(--dark-grey);
+  padding: 2em;
+  color: var(--grey-light);
 
+}
 
+.quote .saying {
+  font-size: 1.5em;
+}
 
-
-
-
+.quote .author {
+  padding: 1em;
+  font-style: italic;
+}
 
 
 
