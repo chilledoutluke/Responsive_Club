@@ -113,9 +113,9 @@ body {
 
 /* Quote Section */
 .quote {
-  background-color: var(--dark-grey);
+  background-color: var(--grey);
   padding: 2em;
-  color: var(--grey-light);
+  color: var(--black);
 
 }
 
@@ -140,10 +140,12 @@ body {
   padding: 1em;
 }
 
+/* Footer Section */
 
-
-
-
+footer {
+  background-color: var(--dark-grey);
+  padding: 1em;
+}
 
 
 
